@@ -1,14 +1,17 @@
-# Fundamentus
-Esta é uma pequena API feita em python3 para análise de ações da BOVESPA utilizando o site fundamentus (www.fundamentus.com.br), que retorna os 
-principais indicadores fundamentalistas em formato JSON.
-A API utiliza o microframework Flask.
-Também é possível utilizar via linha de comando.
+# deep value investing
 
-# Linha de comando
-    $ python3 fundamentus.py
+Etapas: 
+
+1. [X] Excluir empresas com EBIT negativo
+2. [X] Excluir empresas com liquidez diária muito baixa
+3. [ ] Excluir bancos e seguradoras
+4. [X] Excluir empresas em recuperação judicial
+5. [ ] Cria ranking por Earning Yield
+
 
 # API
 Execute o server.py e conecte no endereço (ex.: http://127.0.0.1:5000/) com seu browser
+Para obter o deep value investing conecte no endpoint `/deep` 
 
 # Requirements
     Flask
